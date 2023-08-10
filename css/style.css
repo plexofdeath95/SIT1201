@@ -1,0 +1,82 @@
+.content h1 
+{
+    font-size: 2.5em;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 0.5em;
+    color: #222;
+}
+
+form 
+{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.form-field 
+{
+    display: block;
+    width: 100%;
+    padding: 0.5em;
+    margin-bottom: 0.5em;
+    border: 2px solid #ccc;
+    border-radius: 0.5em;
+    font-size: 1.2em;
+    font-weight: 300;
+    transition: 0.25s all ease-out;
+}
+
+table 
+{
+    width: 100%;
+    margin: 50px auto;
+    text-align: center;
+}
+
+th 
+{
+    font-size: 1.2em;
+    font-weight: 300;
+    text-align: center;
+    padding: 0.5em;
+    color: #222;
+}
+
+td 
+{
+    font-size: 1.2em;
+    font-weight: 300;
+    text-align: center;
+    padding: 0.5em;
+    color: #222;
+}
+
+tr:nth-child(even) 
+{
+    background-color: #eee;
+}
+
+.form-input 
+{
+    display: block;
+    width: 100%;
+    padding: 0.5em;
+    margin-bottom: 0.5em;
+    border: 2px solid #ccc;
+    border-radius: 0.5em;
+    font-size: 1.2em;
+    font-weight: 300;
+    transition: 0.25s all ease-out;
+} 
+
+.custom-footer 
+{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 90%;
+    background-color: #222;
+    color: white;
+    text-align: center;
+}
